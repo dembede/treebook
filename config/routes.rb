@@ -1,4 +1,10 @@
 Treebook::Application.routes.draw do
+  resources :miniposts
+
+
+  resources :users
+
+
   resources :statuses
 
 

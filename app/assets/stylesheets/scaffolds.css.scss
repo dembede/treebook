@@ -1,9 +1,17 @@
 body {
-  background-color: #fff;
+  background-color: #CFDAE4;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  padding: 5px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border: solid 10px #BBC5CE;
+  min-height: 650px;
 }
 
 p, ol, ul, td {
@@ -20,13 +28,38 @@ pre {
 
 a {
   color: #000;
+  padding: 2px 5px;
+  background-color: #EFF3F6; 
+  text-decoration: none;
   &:visited {
     color: #666;
+    background-color: #EFF3F6; 
   }
   &:hover {
     color: #fff;
-    background-color: #000;
+    background-color: #8A9198;
+    text-decoration: none;
   }
+}
+
+.field textarea,
+.field input {
+  background-color: #EFF3F6; 
+  outline: none;
+  border: solid 2px #BBC5CE;
+}
+
+.actions input {
+  padding: 5px 10px;
+  background-color: #8A9198; 
+  border: solid 2px #BBC5CE;
+  color: #fff;
+}
+
+.actions input:hover {
+  background-color: #9DA8B2; 
+  border: solid 2px #BBC5CE;
+  color: #EFF3F6;
 }
 
 div {
